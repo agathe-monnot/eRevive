@@ -1,0 +1,137 @@
+/* main colours */
+body {
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+/* images  */
+img {
+  width: 100%;
+}
+
+.preview {
+  width: 250px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* fonts */
+h1 {
+  color: #20583c;
+  font-weight: 800;
+}
+
+h5 {
+  line-height: 1.5em;
+}
+
+h3 {
+  color: #20583c;
+  font-weight: 900;
+}
+
+/* nav */
+.nav_bg {
+  background-color: #20583c;
+  font-size: 18px;
+}
+
+#title {
+  font-weight: 800;
+  font-size: 28px;
+}
+
+/* footer */
+footer {
+  background-color: #20583c;
+  color: white;
+}
+
+ul li {
+  display: inline;
+}
+
+.social {
+  width: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#copyright {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* buttons */
+.wide_btn {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.on_green:hover {
+  color: #199e60;
+}
+
+form label {
+  color: #20583c;
+  font-weight: 600;
+}
+
+a.text_link {
+  color: #199e60;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+a.text_link:hover {
+  color: #20583c;
+}
+
+/* products cards */
+.prod_title {
+  color: #20583c;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.rows {
+  color: #199e60;
+  font-weight: 900;
+}
+
+.price {
+  font-size: 26px;
+  color: #20583c;
+  font-weight: 900;
+}
+
+.line_height {
+  line-height: 2em;
+}
+
+.warning {
+  color: #2fc278;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.grey {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.intro {
+  background-color: #199e60;
+}
+/*# sourceMappingURL=stylesheet.css.map */

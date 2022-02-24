@@ -1,0 +1,142 @@
+/* main colours */
+$primary: #20583c;
+$secondary: #199e60;
+
+body {
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* images  */
+img {
+    width: 100%;
+}
+
+.preview {
+    width: 250px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* fonts */
+
+h1{
+    color: $primary;
+    font-weight: 800;
+} 
+
+h5 {
+    line-height: 1.5em;
+}
+
+h3 {
+    color: $primary;
+    font-weight: 900;
+}
+
+/* nav */
+.nav_bg {
+    background-color: $primary;
+    font-size: 18px;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+/* footer */
+footer {
+    background-color: $primary;
+    color: white;
+}
+
+
+ul li {
+    display: inline;
+}
+
+.social { 
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#copyright {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+/* buttons */
+.wide_btn {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.on_green:hover {
+    color: $secondary;
+}
+
+
+form label {
+    color: $primary;
+    font-weight: 600;
+}
+
+a.text_link {
+    color: $secondary;
+    font-weight: 900;
+    text-decoration: none;
+    &:hover {
+        color: $primary;
+    }
+}
+
+/* products cards */
+.prod_title {
+    color: $primary;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.rows {
+    color: $secondary;
+    font-weight: 900;
+}
+
+.price {
+    font-size: 26px;
+    color: $primary;
+    font-weight: 900;
+}
+
+.line_height {
+ line-height: 2em;
+}
+
+.warning {
+    color: rgb(47, 194, 120);
+    font-size: 14px;
+    font-style: italic;
+}
+
+.grey {
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.intro {
+    background-color: $secondary;
+}
+
